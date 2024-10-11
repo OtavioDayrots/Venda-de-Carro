@@ -33,7 +33,7 @@ input[type="number"],
 input[type="date"],
 input[type="file"],
 textarea {
-    width: 400px;
+    width: 50vh;
 }
 
 textarea {
@@ -140,5 +140,22 @@ textarea {
     color: #673ab7;
 }
 
-
-
+@media screen and (max-width: 740px) {
+    input[type="text"],
+    input[type="number"],
+    input[type="date"],
+    input[type="file"],
+    textarea {
+        width: 30vh;
+}
+}
+@media screen and (max-width: 480px) {
+    input[type="text"],
+    input[type="number"],
+    input[type="date"],
+    input[type="file"],
+    textarea {
+        width: 20vh;
+        font-size: 10px;
+}
+}
